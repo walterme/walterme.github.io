@@ -1,0 +1,100 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Domine', serif;
+}
+h1{
+  text-shadow:2px 2px rgb(220,84,5);
+   font-family: 'Source Serif Pro', serif;
+   font-family: 'Domine', serif;
+   font-family: 'Source Serif Pro', serif;
+   font-family: 'Domine', serif;
+   margin-top: 20px;
+   text-align: center;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(25,47,131);
+    padding: 20px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+   
+}
+li a:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+li{
+    font-family: 'Abril Fatface', cursive;
+    display: inline;
+    padding: 80px;
+}
+.natureimage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -750px
+}
+.oceanimage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    overflow-x: scroll;
+}
+.treesimage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('trees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+.goldengateimage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('goldengate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+h3{
+     text-align: center;
+     font-family: 'Crimson Text', serif;
+}
+form{
+     text-align: center;
+}
+table{
+     margin-left:auto; 
+    margin-right:auto;
+}
+ol{
+    text-align: center
+}
+p{
+    line-height: 150%;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    font-family: 'Crimson Text', serif; 
+}
+ol{
+     font-family: 'Crimson Text', serif;
+}
